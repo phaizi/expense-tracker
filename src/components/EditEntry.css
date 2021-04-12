@@ -1,0 +1,22 @@
+.EditDs {
+    /* max-width: 60%; */
+    width: 60%;
+    font-size: 70%;
+    font-weight: 800;
+}
+
+.EditAm {
+    /* max-width: 30%; */
+    width: 30%;
+    font-size: 70%;
+    font-weight: 800;
+}
+
+@media screen and (max-width: 356px) {
+    .EditDs{
+        width: 50%;
+    }
+    .EditAm{
+        width:25%;
+    }
+}

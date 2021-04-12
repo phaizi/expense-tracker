@@ -1,0 +1,8 @@
+.Icon {
+    /* width:9%; */
+    width:45%;
+    height:auto;
+}
+.Icon:hover {
+    box-shadow: 5px 5px 10px 5px #888888;;
+}

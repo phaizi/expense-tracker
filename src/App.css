@@ -4,13 +4,25 @@
      background-size: cover;
      background-attachment: fixed;
      min-height: 100vh;
+     /* overflow-x: hidden; */
 }
+/* @media screen and (max-width: 500px) {
+     .App {width: 100%;}
+} */
 
 .Container {
   margin:auto;
-  height:100vh;
+  padding: 10px;
+  height:calc(100vh - 20px);
   max-width: 500px;
   background-color: white;
   opacity: 0.9;
   border-radius: 10px;
+  overflow-x: hidden
+}
+
+hr{
+  border-top: 1px solid #bbb;
+  border-radius: 10px;
+  margin: 0px;
 }
