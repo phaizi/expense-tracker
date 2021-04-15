@@ -1,12 +1,9 @@
 .Stat{
     display: inline-block;
-    /* padding: 10px 0px; */
     border:  1px solid black;
  font-size: 150%;
    font-weight: 800; 
     min-width: 32%;
     color:white;
 }
-/* @media screen and (max-width: 500px) {
-    .Stat{width: 10%;
-}} */
+

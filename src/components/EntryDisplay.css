@@ -13,19 +13,10 @@ justify-content: flex-start;
 padding:10px 0px;
 text-align: left;
 font-size: 80%;
-
 }
-/* {
-    text-align: left;
-     font-size: 80%;
-    padding: 10px;
-} */
 
 .Label {
-    /* text-align: left; */
     width: 120px;
-     /* display: inline-block;  */
-     /* padding: 0px 50px 0px 10px; */
 }
 
 button {

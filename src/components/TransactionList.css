@@ -1,6 +1,5 @@
 .TrContainer {
     border:  1px solid black;
-    /* font-size: large; */
     margin: 10px 22px;
     padding: 10px;
     font-size: 150%;
@@ -12,7 +11,6 @@
 .TrFlex {
     display: flex; 
     justify-content: center; 
-    
 }
 
 .Description {
