@@ -43,3 +43,9 @@ button:active {
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
+
+.error {
+    float:left; 
+    width:100%;
+    color:red;
+}

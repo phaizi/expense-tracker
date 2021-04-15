@@ -1,14 +1,14 @@
-// import react from 'react';
+import { useTransactions } from '../services/customHooks';
 import Stat from './Stat';
 
 export default function Display() {
+    const [state] = useTransactions()
     return (
         <div style={{padding:'10px 0px'}}
-        // style={{ padding:'20px 10px'}}
         >
-            <Stat title='Income' amount={1200000} color='green'/>
-            <Stat title='Balance' amount={1000} color='orange'/>
-            <Stat title='Expense' amount={1500} color='red'/>
+            <Stat title='Income' amount={state.income} color='green'/>
+            <Stat title='Balance' amount={state.income - state.expense} color='orange'/>
+            <Stat title='Expense' amount={state.expense} color='red'/>
         </div>
     )
 }

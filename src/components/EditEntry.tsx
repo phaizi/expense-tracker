@@ -12,7 +12,7 @@ export default function EditEntry() {
                 className='EditAm' 
                 placeholder='Amount' />
                 {/* <img src={greenicon}  className='Icon' alt='green'></img>
-   <img src={redicon} className='Icon' alt='red'></img> */}
+   <img src={redicon} className='Icon' alt='red'></img>  */}
                 {/* <button style={{ backgroundColor: 'green' }} className='icon'></button>
                 <button style={{ backgroundColor: 'red' }} className='icon'></button> */}
             </div>

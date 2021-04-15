@@ -1,8 +1,7 @@
 .Icon {
-    /* width:9%; */
-    width:45%;
-    height:auto;
-}
-.Icon:hover {
-    box-shadow: 5px 5px 10px 5px #888888;;
+    width:40%; 
+    font-size:30px; 
+    color:black; 
+    line-height:37px;
+    overflow:hidden;
 }
