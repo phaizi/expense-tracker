@@ -25,13 +25,27 @@ const transact =(state:Context,action:Action)=>{
                // newState.list.splice(action.index,1)
                // return newState 
 
-          // case "edit":
+          case "edit":
                // const amount = newState.list[action.index][action.tran]
                // newState.list[action.index][action.tran]= (action.evt.target.value);
                // if(!(action.tran == "trans")) { 
                // newState[action.tran]+= (((newState.list[action.index][action.tran])) - amount);
                // }
-               // return newState 
+               const entryRef = newState.entries.filter((entry)=>entry.id===action.id)[0];
+               // if(entryRef.type==='income'){
+                    console.log('this is entryRef = ',entryRef);
+                    newState[entryRef.type] -= entryRef.amount;
+                    newState[action.kind] += action.amount;
+                    entryRef.amount = action.amount;
+                    entryRef.type = action.kind;
+                    if(action.description!=='') entryRef.description = action.description
+                    // entryRef.description = action.description||entryRef.description;
+               // }else{
+                    // newState.expense-=entryRef.amount
+               // }
+               // entryRef.description = action.description;
+               // entryRef.amount = action.amount;
+               return newState 
 
           // case "change":
                // const changeAmount = (newState.list[action.index][action.changeFrom]-0)

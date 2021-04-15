@@ -13,6 +13,7 @@ export type Context = {
 }
 export type Action =
  | { type: 'submit', entry:Entry }
+ | {type: 'edit', id:number, kind:'income'|'expense', description:string, amount:number}
 //  | { type: 'success', results: string }
 //  | { type: 'failure', error: string };
 
